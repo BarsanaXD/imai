@@ -9,12 +9,12 @@ const handleClick = () => {
 function Reports_transaction(){
     return(
         <div className='Inventory-Grid'>
-        <div>
+        <div style={{marginInline:'20px'}}>
         <h2>Transaction History</h2>
         </div>
       
         <div className='Card-2'>
-        <div className='Flexed'>
+        <div className='Flexed' style={{marginInline:'20px'}}>
             <h3>Transaction History</h3>
         <div className='Product-Button'>
         <Button onClick={handleClick} buttonStyle={styles.button2} title="From: MM/DD/YY" />
@@ -25,7 +25,7 @@ function Reports_transaction(){
         </div>
        
         
-        <div className="table-container">
+        <div className="table-container" style={{marginInline:'20px'}}>
         <table className="table">
             <thead>
             <tr>

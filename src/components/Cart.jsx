@@ -12,7 +12,7 @@ function Cart(){
     return (
      
     <div className='Inventory-Grid'>
-      <div>
+      <div style={{ marginInline: '20px'}}>
         <h2>Cart Overview</h2>
       </div>
           <div className='Cart-Grid'>

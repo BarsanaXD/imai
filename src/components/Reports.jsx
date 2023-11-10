@@ -11,17 +11,17 @@ function Reports(){
     return(
        
                 <div className='Inventory-Grid'>
-                <div >
+                <div style={{marginInline:'20px'}}>
                     <h2>Reports</h2>
                 </div>
                 <div className='Card-2'>
-                    <div className='Flexed'>
+                    <div className='Flexed'style={{marginInline:'20px'}}>
                         <h2>Best Selling Products</h2>
                         <div className='Product-Button'>
                         <Button onClick={UserBut} buttonStyle={styles.normal} title="See All" />
                         </div>
                     </div>
-                    <div className="table-container">
+                    <div className="table-container"style={{marginInline:'20px'}}>
                         <table className="table">
                             <thead>
                             <tr>

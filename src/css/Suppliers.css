@@ -2,34 +2,39 @@
 
 .Supplier-Dash{
   height: auto;
-  display: flex;
+  /* background-color: pink; */
   justify-content: space-between;
-  
 }
 
-.Supplier-Dash .Left-Dash{
-  width: 50%;
-  background-color: aqua;
-}
+
 
 .Supplier-Dash .Left-Dash{
-  
-  display: grid;
+  display: flex;
   height: auto;
-  background-color: pink;
+  /* background-color: pink; */
   justify-content: center;
  
 }
-.Supplier-Dash .Left-Dash .Card-1{
+.Supplier-Dash .Card-1{
   display: grid;
-  padding-left: 10px;
-  background-color: rgb(245, 0, 0);
+  width: 50%;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  margin: 20px;
+  border-radius: 5px;
+}
+.Supplier-Dash .Card-2{
+  width: 50%;
+  justify-content: space-around;
+  padding-inline: 20px;
+  background-color: rgb(255, 255, 255);
   margin: 20px;
   border-radius: 5px;
 }
 
 
 
+/* 
 .Supplier-Dash .Rights-Dash{
   width: 50%;
   background-color: rgb(82, 245, 0);
@@ -48,5 +53,4 @@
   background-color: rgb(245, 0, 0);
   margin: 20px;
   border-radius: 5px;
-  width: auto;
-}
+} */

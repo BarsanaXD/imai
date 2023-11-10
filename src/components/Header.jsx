@@ -10,10 +10,8 @@ function Header(){
 
     return(
 <div className='Header'>
-    <div className='Logo'>
-        <h3>IM.AI CART</h3>
-    </div>
-    <div>
+ 
+    <div className='Search'>
     <input
         className="text-input" 
         type="text"

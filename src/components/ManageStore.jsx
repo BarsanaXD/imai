@@ -9,17 +9,17 @@ const handleClick = () => {
 function ManageStore(){
     return(
     <div className='Inventory-Grid'>
-    <div >
-    <h2>Manage Store</h2>
+    <div style={{marginInline:'20px'}}>
+    <h2 >Manage Store</h2>
     </div>
     <div className='Card-2'>
-    <div className='Flexed'>
+    <div className='Flexed' style={{marginInline:'20px'}}>
     <h3>Manage Store</h3>
     <div className='Product-Button'>
     <Button onClick={handleClick} buttonStyle={styles.button} title="Add Store" />
     </div>
     </div>
-    <div style={{paddingBottom: '10px',margin:'0%'}}>
+    <div style={{paddingBottom: '10px',marginInline:'20px'}}>
     <div className="Manage-Card">
     <div className='Manage-Card2'>
     <div className="image-box">

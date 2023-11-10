@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import {SidebarData, SidebarSettings} from './SidebarData';
 function Sidebar(){
     return(
-        <div className='Sidebar'>
+        <div >
             <div className='Logo'>
                 <h3>IM.AI CART</h3>
             </div>
